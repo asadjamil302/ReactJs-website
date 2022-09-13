@@ -1,5 +1,12 @@
 import React from 'react'
+/* Importing the Link component from the react-router-dom package. */
 import { Link } from "react-router-dom";
+
+/**
+ * It takes a prop called PageName and displays it in the breadcrumbs
+ * @param props - {
+ * @returns A React component.
+ */
 export default function Breadcrumbs(props) {
   return (
     <div>
@@ -13,7 +20,6 @@ export default function Breadcrumbs(props) {
                     <div className="col-md-12">
                         <ul>
                             <li><Link to="/">Home</Link></li>
-                            {/* <li><Link to="/{props.PageName}">{props.PageName}</Link></li> */}
                             <li><a>{props.PageName}</a></li>
                         </ul>
                     </div>

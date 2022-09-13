@@ -1,5 +1,20 @@
 import React from 'react'
 
+/**
+ * It returns a div that contains a footer element with a class of bg-dark-blue. 
+ * 
+ * The footer element contains a div with a class of footer-style3 and py-6 py-sm-8. 
+ * 
+ * The div with a class of footer-style3 contains a div with a class of container. 
+ * 
+ * The div with a class of container contains a div with a class of row. 
+ * 
+ * The div with a class of row contains three divs with a class of col-lg-4 mb-2-9 mb-lg-0. 
+ * 
+ * The first div with a class of col-lg-4 mb-2-9 mb-lg-0 contains an img element with a src of
+ * img/logos/logo.png, a class of w-60 w-
+ * @returns A React component.
+ */
 export default function Footer() {
   return (
     <div>

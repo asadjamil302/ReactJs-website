@@ -1,5 +1,9 @@
 import React from 'react'
 
+/**
+ * It returns a div that contains a div
+ * @returns A React component.
+ */
 export default function Slider() {
   return (
     <div>

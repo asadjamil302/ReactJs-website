@@ -2,7 +2,12 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 
+/**
+ * It returns a div that contains a header with a navbar.
+ * @returns A React component.
+ */
 export default function Navbar() {
+/* Rendering the header component. */
   return (
     <div>
         <header className="header-style3 header-custom">
@@ -51,7 +56,7 @@ export default function Navbar() {
 
                                     <div className="navbar-header navbar-header-custom">
 
-                                        <a href="#!" className="navbar-brand xs-width-145px d-inline-block mr-lg-0"><img id="logo" src="img/logos/logo.png" alt="logo" /></a>
+                                        <a href="#!" className="navbar-brand xs-width-145px d-inline-block mr-lg-0"><Link to="/"><img id="logo" src="img/logos/logo.png" alt="logo" /></Link></a>
 
                                     </div>
 

@@ -1,5 +1,9 @@
 import React from 'react'
 
+/**
+ * It's a function that returns a div that contains a div that contains an iframe.
+ * @returns A div with a class of container googlemap.
+ */
 export default function Googlemap() {
   return (
     <div>

@@ -1,6 +1,11 @@
 import React from 'react'
 
+/**
+ * It renders a FAQ section.
+ * @returns A JSX element.
+ */
 export default function Faq() {
+/* Rendering a FAQ section. */
   return (
     <div>
         <section>

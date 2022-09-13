@@ -1,5 +1,9 @@
 import React from 'react'
 
+/**
+ * It returns a div that contains a section that contains a 
+ * @returns A React component.
+ */
 export default function Aboutdescreption() {
   return (
     <div>
